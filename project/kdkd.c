@@ -113,7 +113,7 @@ int scores(int n, int totalscores){
         printf("You broke the High Scores");
     }
     if(n == 1 ){
-        FILE * ptr = fopens("scores.txt", "r");
+        FILE * ptr = fopen("scores.txt", "r");
         if (ptr == NULL) {
             printf("Error opening file!\n");
             return 1; 
