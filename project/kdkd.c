@@ -265,8 +265,9 @@ int MainMenu() {              // Displaying main menu
 
 
 int main() {
+    
     time_t startTime, currentTime; //for time
-    double timeLimit = 300.0;
+    double timeLimit = 180.0;
     double elapsedTime = 0.0;
 
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // Adding Colors for main
@@ -396,3 +397,4 @@ int main() {
 
     return 0;
 }
+// THe END
