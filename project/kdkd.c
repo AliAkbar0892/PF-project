@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
 
 #define MAX_LEVELS 5
